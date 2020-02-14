@@ -1,7 +1,7 @@
 # Extreme Classification via Adversarial Softmax Approximation
 
 This repository contains the code for our paper
-* [R. Bamler and S. Mandt, Extreme Classification via Adversarial Softmax Approximation, ICLR 2020](https://openreview.net/forum?id=rJxe3xSYDS).
+* [R. Bamler and S. Mandt, Extreme Classification via Adversarial Softmax Approximation, ICLR 2020](bamler-mandt-adversarial-neg-sampling-iclr2020.pdf).
 
 
 ## Dependencies
@@ -27,7 +27,7 @@ The code to fit the auxiliary model was tested with Julia version 1.1.
 
 The source code in this repository is released under the [MIT License](LICENSE).
 If you use this software for a scientific publication, please consider citing the following paper:
-[R. Bamler and S. Mandt, Extreme Classification via Adversarial Softmax Approximation, ICLR 2020](https://openreview.net/forum?id=rJxe3xSYDS).
+[R. Bamler and S. Mandt, Extreme Classification via Adversarial Softmax Approximation, ICLR 2020](bamler-mandt-adversarial-neg-sampling-iclr2020.pdf).
 
 
 ## Authors
