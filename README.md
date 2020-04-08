@@ -12,8 +12,11 @@ The code to fit the auxiliary model was tested with Julia version 1.1.
 
 ## Directory Overview
 
+- Directory `dat`:
+  - Contains a textual version of pre-extracted XML-CNN features, originally downloaded from https://github.com/siddsax/XML-CNN (the download link there is currently broken, which is why we provide a mirror of the data set).
+    Due to their large size, the data sets are included via [Git Large File Storage (git lfs)](https://git-lfs.github.com/).
 - Directory `preprocess-extreme-predicton`:
-  - Contains code to reproduce the exact binary representation of the data sets used in the paper.
+  - Contains code to reproduce the exact binary representation of the data sets used in the paper, using the textual representation in the directory `dat` as input.
   - Contains a jupyter notebook `pca.ipynb` that was used to generate the low-dimensional feature vectors for the auxiliary model as described in the paper.
 - Directory `aux_model`:
   - Contains both Julia code to fit the auxiliary model and python code to use the fitted model during training of the main model, as described in the paper.
